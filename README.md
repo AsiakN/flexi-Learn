@@ -1,2 +1,3 @@
 # flexi-Learn
-Practice code 
+unpolished Practice code for projects of an amateur engineer 
+
