@@ -1,0 +1,48 @@
+# Lists: A list is  a container data type that stores a sequence of elements. Unlike strings, lists are mutable(
+# modification possible)
+from typing import List
+
+# creating a new list. Note that lists are created with square braces
+
+l = [1, 2, 3]
+
+# Adding Elements to a list can be done in three ways. 1. using Append 2. Using insert 3. using concatenation .
+# The append method is the fastest
+
+# using the append
+l.append(4)
+print("Update list using append: ", l)
+
+# using the insert
+# Takes two input arguments. The first is the position to be inserted and the second is the value to be inserted.
+l.insert(2, 1)
+print("update list using insert:", l)
+
+# using the concatenate
+print("List addition using concatenation:", [1, 2, 3] + [4])
+
+# Removal
+    # syntax
+        # list.remove(element). Takes in a single argument which is the element to remove from the list.
+l.remove(1)
+print("updated list:", l)
+
+# Reversing
+    # syntax
+        # list.reverse(). Takes no input argument
+l.reverse()
+print("Updated reverse list:", l)
+
+#sorting
+    #syntax
+        # list.sort() . Takes no input
+l.sort()
+print("Updated and sorted list:", l)
+
+#Indexing
+# Finds the first occurence of the element in the list and returns its index.
+    #Syntax
+        # list.index(element, optional(position to look after))
+l.index(2)
+print("updated list using the index:", l)
+
