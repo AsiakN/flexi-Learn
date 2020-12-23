@@ -5,3 +5,4 @@ for n in range(2,10):
 			break
 	else:
 	    print(n, 'is a prime number')
+	    

@@ -14,3 +14,10 @@ for i in w:
 for i in range(5):
 	print(i)
 
+# Range (a,b) is read as a <=x < b 
+# Range (a,b,c) is read as a <= x < b in increments of c 
+
+
+# Defining Functions
+
+
