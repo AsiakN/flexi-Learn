@@ -7,4 +7,8 @@ def fib(n):
 		a, b =b, a+b
 fib(200)
 
+#classes in python 
+##class myEmptyClass:
+#	pass
+	
 
